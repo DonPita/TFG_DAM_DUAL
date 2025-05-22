@@ -38,11 +38,11 @@ El proyecto se organiza en las siguientes carpetas:
 1. **Crea el archivo `.env`** en la raíz del proyecto con las siguientes variables:
 
 ```
-DB_USERNAME=root
-DB_PASSWORD=abc123.
-AUTH_SERVICE_DB_URL=jdbc:mysql://auth-db:3306/auth_service_db?createDatabaseIfNotExist=true
-WATERPOLO_DB_URL=jdbc:mysql://waterpolo-db:3306/waterpolo_db?createDatabaseIfNotExist=true
-JWT_SECRET=your_jwt_secret_here
+DB_USERNAME=
+DB_PASSWORD=
+AUTH_SERVICE_DB_URL=
+WATERPOLO_DB_URL=
+JWT_SECRET=
 COMPOSE_PROJECT_NAME=waterpolo-v0
 ```
 
